@@ -40,6 +40,12 @@ define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_EXCLUDE_HINT', 'Наприклад: Ти 
 define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_POSITION', 'Де показувати віджет?' );
 define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_POSITION_HINT', 'На сторінці в якому куточку? Позицій трохи... Вибери зі списку будь-яку.' );
 
+define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_OPEN', 'Розкривати віджет не відразу, а по кліку' );
+define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_OPEN_HINT', 'Якщо чекбокс відзначений, при завантаженні сторінки панель навігатора за замовчуванням буде згорнута!' );
+
+define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_SCROLL', 'Вимкнути плавний скролл' );
+define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_SCROLL_HINT', 'Якщо чекбокс відзначений, плавний скролл буде вимкнений і перехід до елементів буде різким/моментальним!' );
+
 define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_THEME', 'Тема віджету' );
 define( 'LANG_WD_MENUNAVSERVICE_ACTIVE_THEME_HINT', '14 тем для віджету, різні колірні рішення.<br>
 Найприкольніший і найохайніший <b>fon-light</b>' );

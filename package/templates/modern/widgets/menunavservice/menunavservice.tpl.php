@@ -31,9 +31,11 @@
                         enable: true,
                         anchors: true,
                         close: true,
-                        open: true,
+                        /* раскрывать виджет по желанию клиента */
+                        open: <?php if( $widget->options[ 'open' ] ==1 ) { echo 'false'; } else { echo 'true'; } ?>,
                         remember: true,
-                        scroll: true
+                        /* плавный скролл или резкий */
+                        scroll: <?php if( $widget->options[ 'scroll' ] ==1 ) { echo 'false'; } else { echo 'true'; } ?>
                     }
                 }
             )

@@ -56,6 +56,20 @@ class formWidgetMenunavserviceOptions extends cmsForm
 								'fon-bottom-right' => 'fon-bottom-right'
 							]
 						]
+					),
+
+					new fieldCheckbox( 'options:open', [
+							'title'   => LANG_WD_MENUNAVSERVICE_ACTIVE_OPEN,
+							'hint'    => LANG_WD_MENUNAVSERVICE_ACTIVE_OPEN_HINT,
+							'default' => 1
+						]
+					),
+
+					new fieldCheckbox( 'options:scroll', [
+							'title'   => LANG_WD_MENUNAVSERVICE_ACTIVE_SCROLL,
+							'hint'    => LANG_WD_MENUNAVSERVICE_ACTIVE_SCROLL_HINT,
+							'default' => 1
+						]
 					)
 
 				]
